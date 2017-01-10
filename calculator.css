@@ -2,6 +2,7 @@
 /* CSS Document */
 body {
 	background-image: url("/images/Lightning.jpg");
+	background-size:100%;
 }
 /* Calculator Box */
 .box {

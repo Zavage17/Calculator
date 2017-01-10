@@ -1,10 +1,12 @@
 @charset "UTF-8";
 /* CSS Document */
-
+body {
+	background-image: url("/images/Lightning.jpg");
+}
 /* Calculator Box */
 .box {
 	/* #FF00A2 */
-	background-color: #e5e7ea;
+	background-color:#FFFFFF;
 	height: 300px;
 	width: 250px;
 	border-radius: 10px;
@@ -49,21 +51,21 @@
 }
 .button.function {
 	color: white;
-	background-color:#FF00DB;
+	background-color:#005FC7;
 	border-bottom: black 2px solid;
 	border-top: 2px #6f6f6f solid;
 }
 
 .button.operator {
 	color: white;
-	background-color:#09FF00;
+	background-color:#FF8400;
 	border-bottom: black 2px solid;
 	border-top: 2px #6f6f6f solid;
 }
 
 .button.number {
 	color: white;
-	background-color:#00A1FF;
+	background-color:#FFCA02;
 	border-bottom: black 2px solid;
 	border-top: 2px #6f6f6f solid;
 }

@@ -19,7 +19,7 @@ body {
 	
 /* THIS PLAY */
 .display {
-	background-color: #bfc4ce;
+	background-color: #007EFF;
 	width: 220px;
 	position:relative;
 	left: 15px;
@@ -32,7 +32,7 @@ body {
 	top: 2px;
 	height: 30px;
 	color:black;
-	background-color: #bccd95;
+	background-color:#A4E9FF;
 	font-size: 21px;
 	text-align: right;
 }
@@ -52,22 +52,22 @@ body {
 	border-top: 2px solid transparent;
 }
 .button.function {
-	color: white;
+	color:#61C9FF;
 	background-color:#005FC7;
 	border-bottom: black 2px solid;
 	border-top: 2px #6f6f6f solid;
 }
 
 .button.operator {
-	color: white;
-	background-color:#FF8400;
+	color:#FF8400;
+	background-color:#FFFFFF;
 	border-bottom: black 2px solid;
 	border-top: 2px #6f6f6f solid;
 }
 
 .button.number {
-	color: white;
-	background-color:#FFCA02;
+	color:#FFC100;
+	background-color:#AA0002;
 	border-bottom: black 2px solid;
 	border-top: 2px #6f6f6f solid;
 }

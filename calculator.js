@@ -9,7 +9,11 @@ function d(val) {
 function v(val) {
 	document.getElementById("d").value += val;
 }
-
+//π
+if( val == "π" ) {
+        val = Math.PI;
+    }
+	
 // Evaluate the equation
 function e( ) {
 	try {

@@ -9,17 +9,22 @@ function d(val) {
 function v(val) {
 	document.getElementById("d").value += val;
 }
-//π
-if( val == "π" ) {
-        val = Math.PI;
-    }
-	
 // Evaluate the equation
 function e( ) {
 	try {
 		 d(eval(document.getElementById("d").value));
 	}
 	catch(err) {
-		d("BOI RESTART THIS");
+		d("BOI RESTART THIS!");
 		}
 }
+
+function root( ) {
+	if(document.getElementById('root').clicked == true)
+		math.sqrt(' ');
+		
+}
+	
+
+
+

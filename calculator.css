@@ -58,6 +58,14 @@ body {
 	border-top: 2px #6f6f6f solid;
 }
 
+.button.root {
+	color:#61C9FF;
+	background-color:#005FC7;
+	border-bottom: black 2px solid;
+	border-top: 2px #6f6f6f solid;
+}
+
+
 .button.operator {
 	color:#FF8400;
 	background-color:#FFFFFF;
@@ -85,6 +93,11 @@ body {
 
 .number:active {
 	border-bottom: 2px #6f6f6f solid;
+	border-top: black 2px solid;
+}
+
+.root:active {
+	border-bottom: 2px #303030 solid;
 	border-top: black 2px solid;
 }
 

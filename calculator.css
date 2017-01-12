@@ -1,13 +1,13 @@
 @charset "UTF-8";
 /* CSS Document */
 body {
-	background-image: url("/images/Lightning.jpg");
+	background-image: url("http://i.huffpost.com/gen/2566942/images/o-LIGHTNING-facebook.jpg");
 	background-size:100%;
 }
 /* Calculator Box */
 .box {
 	/* #FF00A2 */
-	background-image: url("/images/Zoom.jpg");
+	background-image: url("https://i.ytimg.com/vi/48ehf7XhR38/hqdefault.jpg");
 	background-size:100%;
 	height: 300px;
 	width: 250px;

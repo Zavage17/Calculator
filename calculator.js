@@ -20,3 +20,7 @@ function e( ) {
 		d("BOI RESTART THIS!");
 		}
 }
+function Root(x) {
+	math.sqrt(x)	
+	var x = displ
+}

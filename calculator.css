@@ -1,21 +1,25 @@
 @charset "UTF-8";
 /* CSS Document */
-
+body {
+	background-image: url("http://i.huffpost.com/gen/2566942/images/o-LIGHTNING-facebook.jpg");
+	background-size:100%;
+}
 /* Calculator Box */
 .box {
 	/* #FF00A2 */
-	background-color: #e5e7ea;
+	background-image: url("https://i.ytimg.com/vi/48ehf7XhR38/hqdefault.jpg");
+	background-size:100%;
 	height: 300px;
 	width: 250px;
 	border-radius: 10px;
 	position: relative;
 	top:80px;
-	left: 40px;
+	left: 40%;
 }
 	
 /* THIS PLAY */
 .display {
-	background-color: #bfc4ce;
+	background-color: #007EFF;
 	width: 220px;
 	position:relative;
 	left: 15px;
@@ -28,7 +32,7 @@
 	top: 2px;
 	height: 30px;
 	color:black;
-	background-color: #bccd95;
+	background-color:#A4E9FF;
 	font-size: 21px;
 	text-align: right;
 }
@@ -48,22 +52,30 @@
 	border-top: 2px solid transparent;
 }
 .button.function {
-	color: white;
-	background-color: #C64F81;
+	color:#61C9FF;
+	background-color:#005FC7;
 	border-bottom: black 2px solid;
 	border-top: 2px #6f6f6f solid;
 }
 
+.button.root {
+	color:#61C9FF;
+	background-color:#005FC7;
+	border-bottom: black 2px solid;
+	border-top: 2px #6f6f6f solid;
+}
+
+
 .button.operator {
-	color: white;
-	background-color: #4d5966;
+	color:#FF8400;
+	background-color:#FFFFFF;
 	border-bottom: black 2px solid;
 	border-top: 2px #6f6f6f solid;
 }
 
 .button.number {
-	color: white;
-	background-color: #709lab;
+	color:#FFC100;
+	background-color:#AA0002;
 	border-bottom: black 2px solid;
 	border-top: 2px #6f6f6f solid;
 }
@@ -81,6 +93,11 @@
 
 .number:active {
 	border-bottom: 2px #6f6f6f solid;
+	border-top: black 2px solid;
+}
+
+.root:active {
+	border-bottom: 2px #303030 solid;
 	border-top: black 2px solid;
 }
 

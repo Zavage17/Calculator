@@ -1,5 +1,7 @@
 // JavaScript Document
 
+function 
+
 // Change display
 function d(val) {
 	document.getElementById("d").value = val;
@@ -19,10 +21,11 @@ function e( ) {
 		}
 }
 
-function root( ) {
+function root('x') {
 	if(document.getElementById('root').clicked == true)
 		math.sqrt(' ');
-		
+		var x = display
+	
 }
 	
 

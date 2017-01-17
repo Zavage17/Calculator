@@ -20,14 +20,3 @@ function e( ) {
 		d("BOI RESTART THIS!");
 		}
 }
-
-function root('x') {
-	if(document.getElementById('root').clicked == true)
-		math.sqrt(' ');
-		var x = display
-	
-}
-	
-
-
-

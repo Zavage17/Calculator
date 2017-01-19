@@ -1,7 +1,5 @@
 // JavaScript Document
 
-function 
-
 // Change display
 function d(val) {
 	document.getElementById("d").value = val;

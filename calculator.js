@@ -1,7 +1,5 @@
 // JavaScript Document
 
-function 
-
 // Change display
 function d(val) {
 	document.getElementById("d").value = val;
@@ -19,4 +17,8 @@ function e( ) {
 	catch(err) {
 		d("BOI RESTART THIS!");
 		}
+}
+function Root(x) {
+	math.sqrt(x)	
+	var x = displ
 }
